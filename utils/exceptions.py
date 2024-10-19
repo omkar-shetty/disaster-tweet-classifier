@@ -1,0 +1,2 @@
+class DataCleanError(Exception):
+    pass
