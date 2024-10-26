@@ -32,7 +32,7 @@ class ModelTrainerCommand:
         
         self._parser.add_argument('--model-type',
                                   type=str,
-                                  choices=['BagOfWords'],
+                                  choices=['bow','tfidf'],
                                   action='store',
                                   required=True,
                                   help='Type of model to be trained')
